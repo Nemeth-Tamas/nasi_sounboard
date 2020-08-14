@@ -23,6 +23,7 @@ class _SounboardState extends State<Sounboard> {
   }
 
   void playLocal(String filename) {
+    advPlayer.stop();
     player.play(filename);
   }
 
