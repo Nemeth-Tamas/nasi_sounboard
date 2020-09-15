@@ -59,6 +59,16 @@ class _SounboardState extends State<Sounboard> {
                               child: Text(
                                 "Zalán",
                                 style: TextStyle(fontSize: 20.0),
+                              )),
+                          RaisedButton(
+                              color: Colors.blue,
+                              textColor: Colors.white,
+                              padding: EdgeInsets.all(8.0),
+                              splashColor: Colors.blueAccent,
+                              onPressed: () => playLocal("edgy.wav"),
+                              child: Text(
+                                "Edgy",
+                                style: TextStyle(fontSize: 20.0),
                               ))
                         ],
                       ),
